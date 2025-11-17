@@ -4,7 +4,10 @@ import DrawerRoot from './DrawerRoot.vue'
 import type { DrawerRootEmits, DrawerRootProps } from './controls'
 import { injectDrawerRootContext } from './context'
 
-const props = defineProps<DrawerRootProps>()
+const props = withDefaults(defineProps<DrawerRootProps>(), {
+  shouldScaleBackground: false,
+})
+
 const emits = defineEmits<DrawerRootEmits>()
 
 const { onNestedDrag, onNestedOpenChange, onNestedRelease } = injectDrawerRootContext()

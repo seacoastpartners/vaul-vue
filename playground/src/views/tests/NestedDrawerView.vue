@@ -117,7 +117,7 @@ const contentInnerClasses = computed(() => {
                 This component can be used as a replacement for a Dialog on mobile and tablet
                 devices.
               </p>
-              <DrawerRootNested :direction="direction">
+              <DrawerRootNested :direction="direction" :should-scale-background="false">
                 <DrawerTrigger as-child>
                   <button data-testid="nested-trigger" class="text-2xl">
                     Open Second Drawer

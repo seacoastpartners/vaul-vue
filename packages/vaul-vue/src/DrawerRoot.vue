@@ -18,7 +18,7 @@ const props = withDefaults(defineProps<DrawerRootProps>(), {
   dismissible: true,
   activeSnapPoint: undefined,
   snapPoints: undefined,
-  shouldScaleBackground: undefined,
+  shouldScaleBackground: true,
   setBackgroundColorOnScale: true,
   closeThreshold: CLOSE_THRESHOLD,
   fadeFromIndex: undefined,
