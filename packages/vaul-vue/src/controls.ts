@@ -382,8 +382,12 @@ export function useDrawer(props: UseDrawerProps & DialogEmitHandlers): DrawerRoo
       // Run this only if snapPoints are not defined or if we are at the last snap point (highest one)
       if (isDraggingInDirection && !snapPoints.value) {
         const dampenedDraggedDistance = dampenValue(draggedDistance)
-
-        const translateValue = Math.min(dampenedDraggedDistance * -1, 0) * directionMultiplier
+        
+        // PATCH: dont allow negative drag values
+        let translateValue = Math.min(dampenedDraggedDistance * -1, 0) * directionMultiplier
+        if (translateValue < 0) {
+          translateValue = 0
+        }
         set(drawerRef.value?.$el, {
           transform: isVertical(direction.value)
             ? `translate3d(0, ${translateValue}px, 0)`
