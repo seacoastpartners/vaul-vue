@@ -1,8 +1,8 @@
 {
-  "name": "vaul-vue",
+  "name": "@seacoastpartners/vaul-vue",
   "type": "module",
   "version": "0.4.1",
-  "repository": "https://github.com/Elliot-Alexander/vaul-vue",
+  "repository": "https://github.com/seacoastpartners/vaul-vue",
   "keywords": [
     "vue",
     "vue3",
