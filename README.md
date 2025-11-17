@@ -6,22 +6,22 @@ It uses [Reka UI's Dialog primitive](https://www.reka-ui.com/docs/components/dia
 ## Installation
 
 ```bash
-pnpm add vaul-vue
+pnpm add @seacoastpartners/vaul-vue
 ```
 
 ```bash
-npm install vaul-vue
+npm install @seacoastpartners/vaul-vue
 ```
 
 ```bash
-yarn add vaul-vue
+yarn add @seacoastpartners/vaul-vue
 ```
 
 ## Usage
 
 ```vue
 <script setup lang="ts">
-import { DrawerContent, DrawerOverlay, DrawerPortal, DrawerRoot, DrawerTrigger } from 'vaul-vue'
+import { DrawerContent, DrawerOverlay, DrawerPortal, DrawerRoot, DrawerTrigger } from '@seacoastpartners/vaul-vue'
 </script>
 
 <template>
