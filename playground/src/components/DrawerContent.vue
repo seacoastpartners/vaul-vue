@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DrawerContent, type DrawerDirection } from 'vaul-vue'
+import { DrawerContent, type DrawerDirection } from 'drawer'
 
 const props = withDefaults(defineProps<{
   direction: DrawerDirection

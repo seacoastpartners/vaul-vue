@@ -29,7 +29,7 @@ jobs:
         run: pnpm install
 
       - name: Copy README
-        run: cp README.md packages/vaul-vue/README.md
+        run: cp README.md packages/drawer/README.md
 
       - name: Publish distribution
         id: changesets

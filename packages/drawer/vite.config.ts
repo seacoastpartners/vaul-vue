@@ -22,7 +22,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      name: 'vaul-vue',
+      name: 'drawer',
       fileName: 'index',
       entry: resolve(__dirname, 'src/index.ts'),
     },

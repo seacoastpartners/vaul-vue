@@ -1,8 +1,8 @@
 {
-  "name": "@seacoastpartners/vaul-vue",
+  "name": "@seacoastpartners/drawer",
   "type": "module",
   "version": "0.4.1",
-  "repository": "https://github.com/seacoastpartners/vaul-vue",
+  "repository": "https://github.com/seacoastpartners/drawer",
   "keywords": [
     "vue",
     "vue3",

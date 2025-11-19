@@ -1,4 +1,4 @@
-# vaul-vue
+# drawer
 
 ## 0.4.1
 

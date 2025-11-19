@@ -7,7 +7,7 @@ import {
   DrawerRoot,
   DrawerTitle,
   DrawerTrigger,
-} from 'vaul-vue'
+} from 'drawer'
 import { ref } from 'vue'
 
 const open = ref<boolean>(false)

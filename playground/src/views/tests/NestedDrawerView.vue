@@ -9,7 +9,7 @@ import {
   DrawerRootNested,
   DrawerTitle,
   DrawerTrigger,
-} from 'vaul-vue'
+} from 'drawer'
 import { computed, ref } from 'vue'
 
 const open = ref(false)
